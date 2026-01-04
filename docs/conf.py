@@ -4,7 +4,9 @@ author = "OceanCruises"
 
 extensions = [
     "myst_parser",
+    "nbsphinx",
 ]
+
 
 # Allow Markdown files
 source_suffix = {
