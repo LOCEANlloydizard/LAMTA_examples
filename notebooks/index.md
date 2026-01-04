@@ -1,9 +1,3 @@
 # LAMTA Examples
 
-```{toctree}
-:maxdepth: 2
-
-intro
-Lagrangian
-
-```
+Welcome to the LAMTA examples.
