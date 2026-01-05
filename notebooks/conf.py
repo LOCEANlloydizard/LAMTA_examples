@@ -3,7 +3,7 @@ project = "LAMTA Examples"
 author = "OceanCruises"
 
 extensions = [
-    "myst_nb",            # handles .ipynb + MyST
+    "myst_nb",
     "sphinx_book_theme",
     "sphinx_external_toc",
     "sphinx_design",
@@ -11,7 +11,10 @@ extensions = [
 
 master_doc = "index"
 
-# Important: use a LIST (or remove entirely), do NOT map ".md" in a dict
+# Increase execution timeout (apply for both config keys)
+nb_execution_timeout = 300
+mystnb_execution_timeout = 300
+
 source_suffix = [".md", ".rst", ".ipynb"]
 
 html_theme = "sphinx_book_theme"
