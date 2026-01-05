@@ -1,24 +1,18 @@
 # notebooks/conf.py
-from pathlib import Path
-import sys
-
 project = "LAMTA Examples"
 author = "OceanCruises"
 
 extensions = [
-    "myst_nb",
-    "myst_parser",
+    "myst_nb",            # handles .ipynb + MyST
     "sphinx_book_theme",
     "sphinx_external_toc",
     "sphinx_design",
 ]
 
-# Tell Sphinx where the book lives
 master_doc = "index"
-source_suffix = {".md": "markdown", ".rst": "restructuredtext"}
 
-# Jupyter Book configuration
+# Important: use a LIST (or remove entirely), do NOT map ".md" in a dict
+source_suffix = [".md", ".rst", ".ipynb"]
+
 html_theme = "sphinx_book_theme"
-
-# Required by sphinx_external_toc (used by Jupyter Book)
 external_toc_path = "_toc.yml"
