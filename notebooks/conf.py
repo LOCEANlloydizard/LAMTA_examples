@@ -6,6 +6,7 @@ project = "LAMTA Examples"
 author = "OceanCruises"
 
 extensions = [
+    "myst_nb",
     "myst_parser",
     "sphinx_book_theme",
     "sphinx_external_toc",
