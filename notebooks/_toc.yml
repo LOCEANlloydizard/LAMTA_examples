@@ -2,9 +2,11 @@ format: jb-book
 root: index
 
 chapters:
-  - file: installation
+  - file: main_install
     title: Installation
     sections:
+      - file: installation
+        title: Steps
       - file: run
         title: Running the notebooks
       - file: notes
