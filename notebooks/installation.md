@@ -1,4 +1,4 @@
-## Installation and setup
+# Installation and setup
 
 These notebooks assume that **LAMTA is already installed** in your Python environment.
 
@@ -8,7 +8,7 @@ In particular:
 
 This repository does **not** install LAMTA automatically.
 
-### 1. Create and activate the examples environment
+## 1. Create and activate the examples environment
 
 We recommend using a dedicated Conda environment to ensure all native
 dependencies (HDF5, PROJ, GEOS, etc.) are available.
@@ -25,7 +25,7 @@ This installs the scientific stack required by the notebooks
 
 ---
 
-### 2. Link your existing LAMTA installation to this environment
+## 2. Link your existing LAMTA installation to this environment
 
 If you are **developing LAMTA** and already have a local clone, install it
 in editable mode into the **activated** `lamta_examples` environment:
@@ -43,7 +43,7 @@ you must still repeat this step for `lamta_examples` environment
 
 ---
 
-### 3. Verify that LAMTA is correctly available
+## 3. Verify that LAMTA is correctly available
 
 ```bash
 python -c "import lamta; print('LAMTA import OK')"
@@ -55,7 +55,7 @@ If this fails, ensure that:
 
 ---
 
-### 4. Open the notebooks
+## 4. Open the notebooks
 
 You can use **any Jupyter-compatible interface** (JupyterLab, classic Jupyter, VS Code, etc.).
 

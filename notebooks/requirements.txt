@@ -9,6 +9,7 @@ sphinx-book-theme
 sphinx-design
 sphinx-external-toc
 sphinxcontrib-yaml
+sphinx-jinja
 
 pooch
 numpy

@@ -1,4 +1,4 @@
-## Notes on Read the Docs
+# Notes on Read the Docs
 
 - Read the Docs is used **only for documentation and browsing**
 - Notebooks are **not executed** during the build

@@ -1,4 +1,4 @@
-## Running the notebooks
+# Running the notebooks
 
 Once Jupyter is running:
 
