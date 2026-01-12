@@ -10,6 +10,8 @@ sphinx-design
 sphinx-external-toc
 sphinxcontrib-yaml
 sphinx-jinja
+sphinxcontrib-datatemplates
+
 
 pooch
 numpy
